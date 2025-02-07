@@ -7,9 +7,11 @@ public class GameManager : MonoBehaviour
 
     // Referencias a objetos privados visibles desde el Inspector
     [SerializeField] TextMeshProUGUI textoDisparos;
+    [SerializeField] TextMeshProUGUI textDeathBugs;
 
     // Variable pública para modificar desde cualquier script
     public int disparos = 0;
+    public int death = 0;
 
     private void Start() {
         // Configuramos el cursor con el sprite de la mirilla
@@ -24,5 +26,9 @@ public class GameManager : MonoBehaviour
     public void UpdateDisparos() {
         // Actualizamos el texto de las balas disparadas
         textoDisparos.text = "Disparos: " + disparos;
+    }
+
+    public void UpdateDeath() {
+        textDeathBugs.text = "Muertes: " + death;
     }
 }
