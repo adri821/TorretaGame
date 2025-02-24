@@ -1,22 +1,10 @@
 fileFormatVersion: 2
-guid: 827ee5e40c061a342adf373e3e4c6eff
+guid: 760ca6bc8780efa498c626107360b22b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5897664577659059481
-    second: BugSpriteSheet_1_0
-  - first:
-      213: 8314398684983592316
-    second: BugSpriteSheet_1_1
-  - first:
-      213: -4092433179359729074
-    second: BugSpriteSheet_1_2
-  - first:
-      213: 7994535897339850940
-    second: BugSpriteSheet_1_3
-  - first:
-      213: -1286146562717302889
-    second: BugSpriteSheet_1_4
+      213: 5609775183719727263
+    second: crossIcon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,111 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BugSpriteSheet_1_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 150
-        width: 150
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48c8c6b47f81f174eaa1dd949626289c
-      internalID: -3639204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BugSpriteSheet_1_1
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 150
-        width: 150
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 338e4ebbb969cb54c8622399eb11d554
-      internalID: 1296142062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BugSpriteSheet_1_2
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 150
-        width: 150
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d6fbf650fc7248428c2725c750a0a96
-      internalID: -593056621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BugSpriteSheet_1_3
+      name: crossIcon_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 150
-        height: 150
+        width: 58
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1bf9735519887ef4b8345416ed86e501
-      internalID: 786514261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BugSpriteSheet_1_4
-      rect:
-        serializedVersion: 2
-        x: 150
-        y: 0
-        width: 150
-        height: 150
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 992c4b07ef1ffd745ae183e52e2a2085
-      internalID: 976714352
+      spriteID: f908a67cecce9dd40800000000000000
+      internalID: 5609775183719727263
       vertices: []
       indices: 
       edges: []
@@ -238,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 517cdf3b263919d4288f9e3611384bd9
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -247,12 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BugSpriteSheet_1_0: -3639204
-      BugSpriteSheet_1_1: 1296142062
-      BugSpriteSheet_1_2: -593056621
-      BugSpriteSheet_1_3: 786514261
-      BugSpriteSheet_1_4: 976714352
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

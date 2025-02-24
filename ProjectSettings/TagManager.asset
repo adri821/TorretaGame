@@ -5,11 +5,18 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - spikedball_item
+  - sawblade_item
+  - Trap
+  - SpikedballTrap
+  - SawTrap
+  - Tiempo
+  - TiempoFinal
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - DroppedItems
   - Water
   - UI
   - 

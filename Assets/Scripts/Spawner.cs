@@ -17,9 +17,11 @@ public class Spawner : MonoBehaviour
     }
 
     IEnumerator GenerateEnemy() {
-
         // La corrutina estará siempre en ejecución
         while (true) {
+            if (GameObject.Find("GameManager").GetComponent<GameManager>().death%5 == 0 && timeBetweenGenerations > 0.5f) {
+                timeBetweenGenerations -= 0.5f;
+            }
             // Posición aleatoria de spawn a lo largo de la línea
             float randomPosY = Random.Range(transform.position.y - spawnLineLength, transform.position.y + spawnLineLength);
 
@@ -30,7 +32,6 @@ public class Spawner : MonoBehaviour
             // La corrutina se pausa durante el tiempo indicado
             // en la variable pública timeBetweenGenerations
             yield return new WaitForSeconds(timeBetweenGenerations);
-
         }
     }
 }
